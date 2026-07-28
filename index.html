@@ -53,8 +53,9 @@
       </nav>
 
       <div>
-        <a href="#beta" class="h-11 px-6 rounded-xl border border-white/10 hover:border-primary/50 hover:bg-primary/5 text-whiteText text-sm font-bold tracking-tight transition-all flex items-center justify-center cursor-pointer whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-primary">
-          <span class="leading-none">Γίνε Beta Tester</span>
+        <a href="#beta" class="text-sm text-whiteText/60 hover:text-primary transition-colors flex items-center gap-2 focus:outline-none focus:text-primary">
+          <i data-lucide="clock" class="w-4 h-4 text-primary"></i>
+          <span>Σύντομα στο Google Play</span>
         </a>
       </div>
     </div>
@@ -89,15 +90,9 @@
             Όλες οι αίθουσες, οι ταινίες και οι ώρες προβολών της Αττικής.
           </p>
 
-          <div class="flex flex-col sm:flex-row sm:items-start gap-4 w-full sm:w-auto">
-            <a href="#beta" class="h-14 px-8 sm:px-10 rounded-xl bg-primary hover:bg-primary/95 text-bgDark font-bold text-base tracking-tight transition-all flex items-center justify-center gap-2.5 cursor-pointer shadow-lg shadow-primary/20 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-bgDark w-full sm:flex-[1.15] whitespace-nowrap">
-              <i data-lucide="key-round" class="w-5 h-5 shrink-0"></i>
-              <span class="leading-none">Ενεργοποίησε την πρόσβαση</span>
-            </a>
-            <a href="https://play.google.com/apps/testing/com.blackcasper.cinemagr" target="_blank" rel="noopener noreferrer" class="h-14 w-full sm:flex-1 px-8 rounded-xl bg-primary hover:bg-primary/95 text-bgDark font-bold text-base tracking-tight transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-primary/20 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-bgDark whitespace-nowrap">
-              <i data-lucide="download" class="w-5 h-5 shrink-0"></i>
-              <span class="leading-none">Κατέβασε την εφαρμογή</span>
-            </a>
+          <div class="flex items-center gap-2.5 text-whiteText/70 text-base font-medium">
+            <i data-lucide="clock" class="w-5 h-5 text-primary shrink-0"></i>
+            <span>Έρχεται σύντομα στο Google Play</span>
           </div>
 
           <!-- Stats Bar -->
@@ -367,56 +362,18 @@
       </div>
     </section>
 
-    <!-- ─── Beta Signup ───────────────────────────────────────── -->
+    <!-- ─── Coming Soon ────────────────────────────────────────── -->
     <section id="beta" class="py-24 border-t border-white/5 bg-cardDark/25">
-      <div class="max-w-5xl mx-auto px-6">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-purpleAccent/10 bg-purpleAccent/5 text-xs font-semibold text-purpleAccent mb-6">
-            <i data-lucide="smartphone" class="w-3.5 h-3.5"></i>
-            <span>Android Beta Πρόγραμμα</span>
-          </div>
-          <h2 class="font-logo font-bold text-3xl sm:text-4xl text-whiteText mb-6">
-            Γίνε beta tester
-          </h2>
-          <p class="text-whiteText/80 text-base sm:text-lg leading-relaxed font-light">
-            Δοκίμασε πρώτος τις νέες λειτουργίες της σκοτεινή αίθουσα πριν από την επίσημη κυκλοφορία.
-          </p>
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-purpleAccent/10 bg-purpleAccent/5 text-xs font-semibold text-purpleAccent mb-6">
+          <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+          <span>Android</span>
         </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Card 1: Ενεργοποίησε την πρόσβαση -->
-          <div class="p-8 rounded-3xl bg-[#111A2E] border border-white/5 shadow-2xl relative overflow-hidden flex flex-col items-start text-left">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl pointer-events-none"></div>
-            <div class="w-12 h-12 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-6">
-              <i data-lucide="key-round" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl sm:text-2xl font-semibold text-whiteText mb-3 font-logo">1. Ενεργοποίησε την πρόσβαση</h3>
-            <p class="text-whiteText/70 text-sm mb-8 leading-relaxed font-light">
-              Γίνε μέλος της ομάδας δοκιμών της Google.
-            </p>
-            <a href="https://groups.google.com/g/skoteiniaithousa-testers" target="_blank" rel="noopener noreferrer" class="w-full h-12 mt-auto rounded-xl bg-primary hover:bg-primary/90 text-bgDark font-bold text-sm tracking-tight transition-all focus:outline-none focus:ring-2 focus:ring-primary flex items-center justify-center gap-2 cursor-pointer shadow-lg whitespace-nowrap">
-              <span class="leading-none">Ενεργοποίηση</span>
-            </a>
-          </div>
-
-          <!-- Card 2: Κατέβασε την εφαρμογή -->
-          <div class="p-8 rounded-3xl bg-[#111A2E] border border-white/5 shadow-2xl relative overflow-hidden flex flex-col items-start text-left">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-purpleAccent/5 rounded-full blur-2xl pointer-events-none"></div>
-            <div class="w-12 h-12 rounded-2xl bg-purpleAccent/10 border border-purpleAccent/20 flex items-center justify-center text-purpleAccent mb-6">
-              <i data-lucide="download" class="w-6 h-6"></i>
-            </div>
-            <h3 class="text-xl sm:text-2xl font-semibold text-whiteText mb-3 font-logo">2. Κατέβασε την εφαρμογή</h3>
-            <p class="text-whiteText/70 text-sm mb-8 leading-relaxed font-light">
-              Η εγκατάσταση από το Google Play θα είναι διαθέσιμη μόλις ανοίξει η beta.
-            </p>
-            <a href="https://play.google.com/apps/testing/com.blackcasper.cinemagr" target="_blank" rel="noopener noreferrer" class="w-full h-12 mt-auto rounded-xl bg-primary hover:bg-primary/90 text-bgDark font-bold text-sm tracking-tight transition-all focus:outline-none focus:ring-2 focus:ring-primary flex items-center justify-center gap-2 cursor-pointer shadow-lg whitespace-nowrap">
-              <span class="leading-none">Google Play Beta</span>
-            </a>
-          </div>
-        </div>
-
-        <p class="text-center text-xs text-whiteText/50 mt-10 max-w-xl mx-auto leading-relaxed">
-          Πρώτα ενεργοποίησε την πρόσβαση και στη συνέχεια άνοιξε το Google Play. Διαφορετικά η beta δεν θα είναι διαθέσιμη.
+        <h2 class="font-logo font-bold text-3xl sm:text-4xl text-whiteText mb-6">
+          Έρχεται σύντομα στο Google Play
+        </h2>
+        <p class="text-whiteText/80 text-base sm:text-lg leading-relaxed font-light">
+          Η σκοτεινή αίθουσα ολοκλήρωσε το beta testing και ετοιμάζεται για την επίσημη κυκλοφορία της.
         </p>
       </div>
     </section>
@@ -497,9 +454,6 @@
       <div class="flex flex-col items-center md:items-end gap-2">
         <a href="privacy.html" class="text-xs text-whiteText/50 hover:text-primary transition-colors underline underline-offset-2 decoration-white/20 hover:decoration-primary/50">
           Πολιτική Απορρήτου / Privacy Policy
-        </a>
-        <a href="beta.html" class="text-xs text-whiteText/50 hover:text-primary transition-colors underline underline-offset-2 decoration-white/20 hover:decoration-primary/50">
-          Beta
         </a>
         <a href="mailto:elenivoreopoulou@gmail.com" class="text-xs text-whiteText/50 hover:text-primary transition-colors underline underline-offset-2 decoration-white/20 hover:decoration-primary/50">
           Contact
