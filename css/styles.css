@@ -71,3 +71,12 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Animated float for hero device mockup */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
